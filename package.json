@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "erine": "^1.1.4",
+    "pg": "^8.10.0",
+    "ts-node": "^10.9.1"
+  },
+  "name": "erine-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "ts": "ts-node src/index.ts",
+    "transpiled": "node dist/index.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
